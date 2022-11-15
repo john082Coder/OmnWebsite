@@ -57,7 +57,7 @@ function NoteAda2(props) {
     }
     return (
         <>
-        <div style={{height: '100%'}} style={{backgroundColor:'white' , borderRadius:20}}>
+        <div style={{height: '100%',backgroundColor:'white' , borderRadius:20}}>
             <SignedInHeader type={1} title='Note'/>
 
             <div className={'flexColumn'} >

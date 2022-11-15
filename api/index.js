@@ -326,7 +326,7 @@ export const storeScent = async (token, scent) => {
 
 }
 export const getDashboardData = async (token) => {
-    return fetcher.get(`api/dashboard/`, {
+    return fetcher.get(`api/dashboard/summary`, {
     headers: {
     'Authorization': `Token ${token}`,
     }
@@ -336,7 +336,7 @@ export const getDashboardData = async (token) => {
     }).catch(e => console.log('get DashboardData', e))
 }
 export const searchByYearMonth = async (year, month, token) => {
-    return fetcher.get(`api/dashboard/?year=${year}&month=${month}`, {
+    return fetcher.get(`api/dashboard/summary/?year=${year}&month=${month}`, {
     headers: {
     'Authorization': `Token ${token}`,
     }

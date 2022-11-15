@@ -30,14 +30,13 @@ class Login extends PureComponent {
 
 
   onFinish = values => {
-    // Router.push('/ada2');
     this.props.login(
       values.email,
       values.password,
       (token) => {
         this.props.getUserProfile(
           token,
-          () => Router.push('/ada2')
+          () => Router.push('/dashboard')
         )
       })
   }

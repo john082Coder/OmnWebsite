@@ -23,7 +23,6 @@ import "../assets/scss/deepnose.scss";
 import "../assets/scss/datepicker.scss";
 import favicon from "../assets/images/favicon.ico";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "leaflet/dist/leaflet.css";
 import "react-datepicker/dist/react-datepicker.css";
 
 Router.events.on("routeChangeStart", (url) => NProgress.start());
