@@ -1,0 +1,13 @@
+.react-datepicker-popper[data-placement^=bottom] {
+    inset: -20px auto auto 0px!important;
+    .react-datepicker__triangle::before {
+        left: -210px!important;
+    }
+
+    .react-datepicker__triangle::after {
+        left: -210px!important;
+    }
+    .react-datepicker__month-text .react-datepicker__month--selected::before{
+        background-color:'#CFB992'!important;
+    }
+}
